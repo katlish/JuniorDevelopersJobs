@@ -7,7 +7,7 @@ import Jobs from './Jobs'
 //   { title: 'SWE 2', company: 'Google'}
 // ]
 
-const JOBS_API_URL = 'http://localhost:3001/jobs'
+const JOBS_API_URL = '/api/jobs'
 
 async function fetchJobsFromAPI(updateJobsCallback) {
   const res = await fetch(JOBS_API_URL)
